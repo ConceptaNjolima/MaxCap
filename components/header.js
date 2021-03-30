@@ -24,6 +24,6 @@ title:{
     height:80,
     paddingTop:60,
     color:'coral',
-    fontFamily:''
+    
 }
 })
