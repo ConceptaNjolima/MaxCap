@@ -1,6 +1,6 @@
 // Acknowledgements:
 // FreePik: For the Search Icon image used in teh Search Bar
-import { StatusBar } from 'expo-status-bar';
+// import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { SafeAreaView, Dimensions, StyleSheet, View , Text,Image, TouchableOpacity} from 'react-native';
 

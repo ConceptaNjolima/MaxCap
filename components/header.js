@@ -1,4 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
+// import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
@@ -9,6 +9,7 @@ export default function Header() {
             <Text style={styles.title}>
                 MaxCap
             </Text>
+            
         </View>
     )
 }
@@ -23,5 +24,6 @@ title:{
     height:80,
     paddingTop:60,
     color:'coral',
+    fontFamily:''
 }
 })

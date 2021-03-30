@@ -1,4 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
+// import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, Image, View} from 'react-native';
 
@@ -7,7 +7,7 @@ export default function Restaurant({item}) {
     return(
         <TouchableOpacity style={styles.item}>
               <Image 
-                source={require('../assets/mcdonalds.jpg')}
+                source={{uri:item.imageUrl}}
                 style={styles.restaurantImage}/>
                 <View>
                     <Text>{item.name}</Text>

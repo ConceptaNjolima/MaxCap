@@ -1,22 +1,14 @@
-import { StatusBar } from 'expo-status-bar';
+// import { StatusBar } from 'expo-status-bar';
 import React, {useState}from 'react';
 import { StyleSheet, View, FlatList, Text } from 'react-native';
 import Header from './components/header'
 import Restaurant from './components/restaurant'
 import SearchBar from './components/searchBar'
 import Filter from './components/filter'
+import {restaurantData} from './components/database'
 
 export default function Search() {
-    const[restaurants]=useState([
-        {key:'1',name:'MacDonalds', image:'../assets/mcdonalds.jpg', proximity:'2.5 miles away'},
-        {key:'2',name:'StarBucks', image:'../assets/mcdonalds.jpg', proximity:'0.5 miles away'},
-        {key:'3',name:'Taco Bell', image:'../assets/mcdonalds.jpg',proximity:'1.5 miles away'},
-        {key:'4',name:'MacDonalds', image:'../assets/mcdonalds.jpg', proximity:'20.5 miles away'},
-        {key:'5',name:'MacDonalds', image:'../assets/mcdonalds.jpg', proximity:'0.5 miles away'},
-        {key:'6',name:'MacDonalds', image:'../assets/mcdonalds.jpg', proximity:'0.5 miles away'},
-        {key:'7',name:'MacDonalds', image:'../assets/mcdonalds.jpg', proximity:'0.5 miles away'},
-        {key:'8',name:'MacDonalds', image:'../assets/mcdonalds.jpg', proximity:'0.5 miles away'},
-    ])
+    
     const pressHandler=(key)=>{
         // To open the specific restaurant
         console.log(key);
@@ -31,7 +23,7 @@ export default function Search() {
             <Filter/>
             <View style={styles.list}>
                 <FlatList
-                        data={restaurants}
+                        data={restaurantData}
                         renderItem={({item})=>(
                         <Restaurant item={item}/>
                     
