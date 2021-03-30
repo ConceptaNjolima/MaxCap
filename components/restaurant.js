@@ -1,11 +1,13 @@
 // import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, Image, View} from 'react-native';
+import {useNavigation} from '@react-navigation/native'
 
 
 export default function Restaurant({item}) {
+    const navigation=useNavigation();
     return(
-        <TouchableOpacity style={styles.item}>
+        <TouchableOpacity style={styles.item} onPress={()=>navigation.navigate('Results',item)} >
               <Image 
                 source={{uri:item.imageUrl}}
                 style={styles.restaurantImage}/>

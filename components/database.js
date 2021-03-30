@@ -7,8 +7,9 @@ export const restaurantData = [
         proximity:"6 miles Away",
         address:"738 Ross Ave, Dallas, TX 75202",
         restrictions:["Mask not required but recommended","Must maintain 6 feet social distance","No tables of more than 6 peoples"],
-        covidZone:"Yelloe",
+        covidZone:"Yellow",
         contactInformation:"214 773 6581"
+        
 
     },
     {
@@ -67,7 +68,7 @@ export const restaurantData = [
         proximity:"4.2 miles Away",
         address:"738 Ross Ave, Dallas, TX 75202",
         restrictions:["Mask not required but recommended","Must maintain 6 feet social distance","No tables of more than 6 peoples"],
-        covidZone:"Yelloe",
+        covidZone:"Yellow",
         contactInformation:"214 773 6581"
 
     },
@@ -115,7 +116,7 @@ export const restaurantData = [
         proximity:"6 miles Away",
         address:"738 Ross Ave, Dallas, TX 75202",
         restrictions:["Mask not required but recommended","Must maintain 6 feet social distance","No tables of more than 6 peoples"],
-        covidZone:"Yelloe",
+        covidZone:"Yellow",
         contactInformation:"214 773 6581"
 
     },
@@ -127,7 +128,7 @@ export const restaurantData = [
         proximity:"6 miles Away",
         address:"738 Ross Ave, Dallas, TX 75202",
         restrictions:["Mask not required but recommended","Must maintain 6 feet social distance","No tables of more than 6 peoples"],
-        covidZone:"Yelloe",
+        covidZone:"Yellow",
         contactInformation:"214 773 6581"
 
     },

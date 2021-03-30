@@ -3,6 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Search from './Search';
 import Home from './Home';
+import Results from './Results'
 
 
 import {enableScreens} from 'react-native-screens'
@@ -21,6 +22,7 @@ export default function App() {
             <Stack.Navigator>
                 <Stack.Screen name="Home" component={Home} />
                 <Stack.Screen name="Search" component={Search} />
+                <Stack.Screen name="Results" component={Results} />
             </Stack.Navigator>
         </NavigationContainer>
     
