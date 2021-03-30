@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Search from './Search';
 import Home from './Home';
 import Results from './Results'
-
+import RegisteredBusiness from './Business'
 
 import {enableScreens} from 'react-native-screens'
 enableScreens();
@@ -23,6 +23,7 @@ export default function App() {
                 <Stack.Screen name="Home" component={Home} />
                 <Stack.Screen name="Search" component={Search} />
                 <Stack.Screen name="Results" component={Results} />
+                <Stack.Screen name="Business" component={RegisteredBusiness} />
             </Stack.Navigator>
         </NavigationContainer>
     

@@ -1,14 +1,15 @@
 // import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
 
 
 export default function Header() {
     return(
         <View style={styles.header}>
-            <Text style={styles.title}>
-                MaxCap
-            </Text>
+            <Image
+                source={require('../assets/MaxCap.png')}
+                style = {styles.logo}
+            />
             
         </View>
     )
@@ -16,14 +17,15 @@ export default function Header() {
 const styles=StyleSheet.create({
 header:{
     height:100,
-    marginTop:70,
+    marginTop:160,
+   
     // backgroundColor:'red',
 
 },
-title:{
-    height:80,
-    paddingTop:60,
-    color:'coral',
+logo:{
+    height:250,
+    marginTop:5,
+    
     
 }
 })

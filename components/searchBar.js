@@ -2,25 +2,26 @@
 // FreePik: For the Search Icon image used in teh Search Bar
 // import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { SafeAreaView, Dimensions, StyleSheet, View , Text,Image, TouchableOpacity} from 'react-native';
+import { SafeAreaView, Dimensions, StyleSheet, View , Text,Image, TouchableOpacity,TextInput} from 'react-native';
 
 const width=Dimensions.get('window').width
 const height=Dimensions.get('window').height
 
 
 
-export default function SearchBar() {
+export default function SearchBarArea() {
     return(
         <SafeAreaView style={styles.header_safe_area}>
             <View style={styles.header}>
                 <View style={styles.innerHeader}>
-                    <View style={styles.search_icon_box}>
+                    <View>
                         <TouchableOpacity>
-                        <Image 
-                        source={require('../assets/searchIcon.png')}
-                        style={styles.searchIcon}/>
+                            <TextInput placeholder="  Search Restaurant" style={styles.search_icon_box}/>
+                            <Image
+                            source={require('../assets/searchIcon.png')}
+                            style={styles.searchIcon}
+                            />
                         </TouchableOpacity>
-                        
                     </View>
               
                 </View>
@@ -31,9 +32,10 @@ export default function SearchBar() {
     const styles=StyleSheet.create({
         header_safe_area:{
             zIndex:1000,
+            marginTop:60,
         },
         header:{
-            height:50,
+            height:55,
             paddingHorizontal:16,
 
         },
@@ -46,8 +48,9 @@ export default function SearchBar() {
             position:'relative',
         },
         search_icon_box:{
+            marginTop:15,
             width:400,
-            height:50,
+            height:40,
             borderRadius:40,
             borderColor:'coral',
             borderWidth:2,
@@ -58,7 +61,9 @@ export default function SearchBar() {
             alignItems:'center',
         },
         searchIcon:{
-            marginLeft:350,
+            marginLeft:357,
+            marginTop:24,
+            position:'absolute',
             width:20,
             height:20,
         },
