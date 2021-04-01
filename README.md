@@ -1,14 +1,14 @@
 # MaxCap
 
-##Team members
+## Team members
 1. [Concepta Njolima](https://github.com/ConceptaNjolima)
 1. [Immanuela Belaineh](https://github.com/belainehi)
 1. [Jau'Kizah Rogers](https://github.com/JauKizahRogers)
 
-##App's purpose
+## App's purpose
  As we all adjust to this new way of life post COVID, we wanted to create an app that will ensure people stay safe when they leave the comfort of their homes. 
 
-##App Description
+## App Description
 
 With Covid-19 restrictions getting lifted in many states, different businesses are opening but with limited capacity and new restrictions. Inspired by this change, we wanted to create something that would help people adjust while staying safe and following the law.
 Short Description: What is your app trying to accomplish?
