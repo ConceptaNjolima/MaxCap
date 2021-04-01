@@ -27,4 +27,5 @@ What technical/coding difficulty did you face in programming your app, and how d
 
 ## Acknoweldgements
 1. We acknoweledge the Code Crew team for organizing and providing support through out the NSBE47 Hackathon during which we formed our team and worked on MaxCap
-1. We acknoweldge FreePik and FlatIcons for the Images and icons used in the App.
+2. We appreciate the National Society of Black Engineers for organizing the 47th NSBE national convention during which we are attending this Hackathon
+3. We acknoweldge FreePik and FlatIcons for the Images and icons used in the App.
